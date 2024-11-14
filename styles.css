@@ -1,0 +1,49 @@
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 0;
+    background-color: beige ;
+    text-align: center;
+}
+
+h1{
+    color: lightseagreen;
+    font-size: 42px;
+}
+
+h2{
+    color: lightseagreen;
+    font-size: 32px;
+}
+
+p{
+    color: lightpink;
+    font-size: 22px;
+}
+
+hr{
+    border: color #fff;
+    margin: 0 auto;
+}
+
+.cont-botones{
+    width: 80%;
+    margin: 0 auto;
+}
+
+button{
+    background: transparent;
+    padding: 14px 30px; 
+    margin: 15px 30px;
+    color: rgb(0, 0, 0);
+    border: 2px solid lightseagreen;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: lightgoldenrodyellow;
+    color: black;
+    border-radius: 15px;
+}
